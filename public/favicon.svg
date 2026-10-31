@@ -1,10 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
-    <defs>
-        <linearGradient id="light" x1="0.5" y1="0" x2="0.5" y2="1">
-            <stop offset="0" stop-color="#c4c4c4" />
-            <stop offset="0.5" stop-color="#808080" />
-            <stop offset="1" stop-color="#4a4a4a" />
-        </linearGradient>
-    </defs>
-    <path fill="url(#light)" fill-rule="evenodd" d="M4 128a124 124 0 1 0 248 0a124 124 0 1 0-248 0ZM56 160a72 72 0 1 0 144 0a72 72 0 1 0-144 0Z" />
+    <style>
+        path { fill: #111; }
+        @media (prefers-color-scheme: dark) {
+            path { fill: #fff; }
+        }
+    </style>
+    <path fill-rule="evenodd" d="M0 0h256v256H0ZM128 128v80h80v-80Z" />
 </svg>
